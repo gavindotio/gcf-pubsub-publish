@@ -1,0 +1,28 @@
+{
+  "name": "gcf-pubsub-publish",
+  "version": "1.0.0",
+  "description": "Google Cloud Function to publish messages to a Google PubSub topic",
+  "main": "lib/index.js",
+  "scripts": {
+    "start:local": "ts-node src",
+    "prepare": "tsc --project ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavindotio/gcf-pubsub-publish.git"
+  },
+  "author": "Gavin Minami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavindotio/gcf-pubsub-publish/issues"
+  },
+  "homepage": "https://github.com/gavindotio/gcf-pubsub-publish#readme",
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.14.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.3"
+  }
+}
